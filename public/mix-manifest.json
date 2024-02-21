@@ -311,18 +311,6 @@
     "/images/logo/logo.png": "/images/logo/logo.png",
     "/images/logo/logo.svg": "/images/logo/logo.svg",
     "/images/portrait/small/avatar-s-11.jpg": "/images/portrait/small/avatar-s-11.jpg",
-    "/data/ag-grid-data.json": "/data/ag-grid-data.json",
-    "/data/ajax.php": "/data/ajax.php",
-    "/data/fullcalendar/json/events.json": "/data/fullcalendar/json/events.json",
-    "/data/fullcalendar/php/get-events.php": "/data/fullcalendar/php/get-events.php",
-    "/data/fullcalendar/php/get-timezones.php": "/data/fullcalendar/php/get-timezones.php",
-    "/data/fullcalendar/php/utils.php": "/data/fullcalendar/php/utils.php",
-    "/data/invoice-list.json": "/data/invoice-list.json",
-    "/data/jstree-data.json": "/data/jstree-data.json",
-    "/data/kanban.json": "/data/kanban.json",
     "/data/menu-data/horizontalMenu.json": "/data/menu-data/horizontalMenu.json",
-    "/data/menu-data/verticalMenu.json": "/data/menu-data/verticalMenu.json",
-    "/data/search.json": "/data/search.json",
-    "/data/table-datatable.json": "/data/table-datatable.json",
-    "/data/user-list.json": "/data/user-list.json"
+    "/data/menu-data/verticalMenu.json": "/data/menu-data/verticalMenu.json"
 }
