@@ -72,8 +72,6 @@ mix
   .js('resources/js/core/app.js', 'public/js/core')
   .sass('resources/sass/core.scss', 'public/css', { sassOptions })
   .sass('resources/sass/overrides.scss', 'public/css', { sassOptions })
-  .sass('resources/sass/base/custom-rtl.scss', 'public/css-rtl', { sassOptions })
-  .sass('resources/assets/scss/style-rtl.scss', 'public/css-rtl', { sassOptions })
   .sass('resources/assets/scss/style.scss', 'public/css', { sassOptions })
 
 mix.then(() => {

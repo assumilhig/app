@@ -10,8 +10,8 @@
 @php $configData = Helper::applClasses(); @endphp
 
 {{-- Page Styles --}}
-@if($configData['mainLayoutType'] === 'horizontal')
-<link rel="stylesheet" href="{{ asset(mix('css/base/core/menu/menu-types/horizontal-menu.css')) }}" />
+@if ($configData['mainLayoutType'] === 'horizontal')
+    <link rel="stylesheet" href="{{ asset(mix('css/base/core/menu/menu-types/horizontal-menu.css')) }}" />
 @endif
 <link rel="stylesheet" href="{{ asset(mix('css/base/core/menu/menu-types/vertical-menu.css')) }}" />
 <!-- <link rel="stylesheet" href="{{ asset(mix('css/base/core/colors/palette-gradient.css')) }}"> -->
@@ -21,13 +21,6 @@
 
 {{-- Laravel Style --}}
 <link rel="stylesheet" href="{{ asset(mix('css/overrides.css')) }}" />
-
-{{-- Custom RTL Styles --}}
-
-@if($configData['direction'] === 'rtl' && isset($configData['direction']))
-<link rel="stylesheet" href="{{ asset(mix('css-rtl/custom-rtl.css')) }}" />
-<link rel="stylesheet" href="{{ asset(mix('css-rtl/style-rtl.css')) }}" />
-@endif
 
 {{-- user custom styles --}}
 <link rel="stylesheet" href="{{ asset(mix('css/style.css')) }}" />
